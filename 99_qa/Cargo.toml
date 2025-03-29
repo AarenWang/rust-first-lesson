@@ -1,0 +1,46 @@
+[package]
+name = "ownership"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+name = "dag"
+path = "src/dag.rs"
+
+[[bin]]
+name = "dag2"
+path = "src/dag2.rs"
+
+[[bin]]
+name = "update_array"
+path = "src/update_array.rs"
+
+[[bin]]
+name = "closure_move"
+path = "src/closure_move.rs"
+
+[[bin]]
+name = "borrow_check"
+path = "src/borrow_check.rs"
+
+[[bin]]
+name = "lifetime_v1"
+path = "src/lifetime_v1.rs"
+
+[[bin]]
+name = "lifetime_bound"
+path = "src/lifetime_bound.rs"
+
+[[bin]]
+name = "lifetime_coercion"
+path = "src/lifetime_coercion.rs"
+
+
+[[bin]]
+name = "fn_param"
+path = "src/fn_param.rs"
+
+[dependencies]
+structopt = "0.3.26"
+structopt-derive = "0.4.18"

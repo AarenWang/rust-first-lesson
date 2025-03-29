@@ -1,0 +1,16 @@
+[package]
+name = "kv_read"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "from_trait"
+path = "src/from_trait.rs"
+
+[[bin]]
+name = "as_ref_trait"
+path = "src/as_ref_trait.rs"
+
+
+[dependencies]
+nom = "7.1.0"

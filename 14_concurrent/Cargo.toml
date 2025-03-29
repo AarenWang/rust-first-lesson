@@ -1,0 +1,27 @@
+[package]
+name = "concurrent"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+name = "unsafe_seq"
+path = "src/unsafe_seq.rs"
+
+[[bin]]
+name = "async_await"
+path = "src/async_await.rs"
+
+[[bin]]
+name = "lock_demo"
+path = "src/lock_demo.rs"
+
+
+[[bin]]
+name = "lock_and_notify"
+path = "src/lock_and_notify.rs"
+
+
+[dependencies]
+futures = "0.3"
+tokio = { version = "1", features = ["full"] }

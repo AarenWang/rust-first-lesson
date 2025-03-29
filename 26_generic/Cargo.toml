@@ -1,0 +1,8 @@
+[package]
+name = "lifetime_demo"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "lifetime1"
+path = "src/lifetime1.rs"

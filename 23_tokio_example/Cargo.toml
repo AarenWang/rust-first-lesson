@@ -1,0 +1,13 @@
+[package]
+name = "tokio_example"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "tokio_echo"
+path = "src/tokio_echo.rs"
+
+
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }

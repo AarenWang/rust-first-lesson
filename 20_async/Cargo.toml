@@ -1,0 +1,12 @@
+[package]
+name = "async_1"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "stream_counter"
+path = "src/counter.rs"
+
+
+[dependencies]
+tokio = "1.16.1"

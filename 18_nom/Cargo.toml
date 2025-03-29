@@ -1,0 +1,11 @@
+[package]
+name = "nom"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "hex1"
+path = "src/hex1.rs"
+
+[dependencies]
+nom = "7.1.0"

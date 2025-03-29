@@ -1,0 +1,13 @@
+[package]
+name = "csv_challenge"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+name = "csv_challenge"
+path = "src/main.rs"
+
+[dependencies]
+structopt = "0.3.26"
+structopt-derive = "0.4.18"

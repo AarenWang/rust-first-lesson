@@ -1,0 +1,25 @@
+[package]
+name = "macro_example"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "macro_1"
+path = "src/macro_1.rs"
+
+[[bin]]
+name = "macro_2"
+path = "src/macro_2.rs"
+
+[[bin]]
+name = "macro_3"
+path = "src/macro_3.rs"
+
+[[bin]]
+name = "hashmap_macro"
+path = "src/hashmap_macro.rs"
+
+[lib]
+crate-type = ["cdylib"]
+name = "hashmap_macro"
+path = "src/hashmap_macro.rs"

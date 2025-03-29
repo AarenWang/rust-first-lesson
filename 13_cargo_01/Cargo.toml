@@ -1,0 +1,8 @@
+[package]
+name = "say_bye"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "say_bye" # 表示编译出来的库文件名字 比如libsay_bye.a
+crate-type = ["dylib","staticlib"]

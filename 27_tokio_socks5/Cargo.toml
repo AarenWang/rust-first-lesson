@@ -1,0 +1,17 @@
+[package]
+name = "tokio-socks5"
+version = "0.1.0"
+authors = ["Jinhua Luo <home_king@163.com>"]
+edition = "2018"
+
+[lib]
+name = "tokio_socks5"
+path = "src/lib.rs"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+byteorder = "1"
+log = "0.4.14"
+
+[dev-dependencies]
+env_logger = "0.9.2"

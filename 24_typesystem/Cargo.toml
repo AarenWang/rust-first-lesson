@@ -1,0 +1,29 @@
+[package]
+name = "sp"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "sp_1"
+path = "src/sp_1.rs"
+
+[[bin]]
+name = "cellv2"
+path = "src/CellV2.rs"
+
+[[bin]]
+name = "box"
+path = "src/box.rs"
+
+
+[[bin]]
+name = "cell"
+path = "src/cell.rs"
+
+[[bin]]
+name = "rc_1"
+path = "src/rc_1.rs"
+
+[[bin]]
+name = "cell_3"
+path = "src/cell_3.rs"
