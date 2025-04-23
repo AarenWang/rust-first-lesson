@@ -6,3 +6,7 @@ edition = "2021"
 [[bin]]
 name = "wolf"
 path = "src/wolf.rs"
+
+[[bin]]
+name = "bulb"
+path = "src/bulb.rs"
